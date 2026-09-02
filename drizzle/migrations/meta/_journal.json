@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788199733413,
+      "tag": "0000_agent_pipeline_infra",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788204148332,
+      "tag": "0001_create_support_threads",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788210273220,
+      "tag": "0002_add_workflow_routing_columns",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788290987300,
+      "tag": "0003_create_support_messages",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788324186096,
+      "tag": "0004_add_recovery_tracking_to_agent_actions",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788331275793,
+      "tag": "0005_support_human_agent_replies",
+      "breakpoints": true
+    }
+  ]
+}

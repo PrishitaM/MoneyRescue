@@ -1,0 +1,4 @@
+INSERT INTO public.risk_rules (signal, root_cause, category, recommended_action, urgency) VALUES
+('payment.authorized', 'Payment was authorized by the issuer but not yet captured — funds are held, not settled.', 'merchant_side', 'Capture the payment (or enable auto-capture) before the authorization window expires, otherwise the charge is voided and revenue is lost.', 'medium'),
+('payment.captured', 'Payment succeeded and funds were captured — no revenue risk on this charge.', 'merchant_side', 'No action needed. Use as the healthy baseline when measuring failure rates.', 'low')
+ON CONFLICT (signal) DO NOTHING;
